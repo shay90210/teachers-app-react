@@ -1,0 +1,27 @@
+/* COLOR SCHEMES */
+$--color-primary: radial-gradient(859px at 10% 20%, rgb(245, 220, 154) 0%, rgb(164, 78, 51) 90%);
+$--color-secondary: #900048;
+$--color-drk: #1a2639;
+$--color-light: #eeeeee;
+
+/* FONT-SIZES */
+$--size-h1: 84px;
+$--size-h2: 56px;
+$--size-h3: 36px;
+
+/* FONT-WEIGHTS */
+$--bold: 600;
+$--bolder: 900;
+
+/* GLOBAL STYLES */
+* {
+    box-sizing: border-box;
+}
+
+/* NAVIGATION BAR */
+.nav-bar {
+    background: $--color-primary;
+    .nav-link {
+        color: $--color-drk;
+    }
+}
