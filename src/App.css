@@ -1,0 +1,27 @@
+/* COLOR SCHEMES */
+/* FONT-SIZES */
+/* FONT-WEIGHTS */
+/* GLOBAL STYLES */
+* {
+  box-sizing: border-box;
+}
+
+/* NAVIGATION BAR */
+.nav-bar {
+  background: radial-gradient(859px at 10% 20%, rgb(245, 220, 154) 0%, rgb(164, 78, 51) 90%);
+}
+.nav-bar .nav-link {
+  color: #1a2639;
+}
+
+/* HEADER */
+img {
+  margin: 0 auto;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-size: 84px;
+  font-family: "crafty-girls";
+}/*# sourceMappingURL=App.css.map */

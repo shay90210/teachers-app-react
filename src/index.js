@@ -11,6 +11,7 @@ import 'font-awesome/css/font-awesome.css';
 import 'typeface-cabin';
 import 'typeface-open-sans';
 import 'typeface-crafty-girls';
+import 'typeface-indie-flower';
 
 const container = document.getElementById('root');
 const root = createRoot(container);

@@ -25,3 +25,15 @@ $--bolder: 900;
         color: $--color-drk;
     }
 }
+
+/* HEADER */
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-size: $--size-h1;
+    font-family: 'crafty-girls';
+}
