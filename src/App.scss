@@ -50,3 +50,13 @@ img {
     font-weight: bold;
     font-size: $--size-h3;
 }
+
+/* CAROUSEL */
+.main-carousel {
+    background-color: #ffdde1;
+}
+
+.carousel-img {
+    object-fit: cover;
+    width: 40%;
+}
