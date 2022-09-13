@@ -8,6 +8,9 @@ import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-social/bootstrap-social.css';
 import 'font-awesome/css/font-awesome.css';
+import 'typeface-cabin';
+import 'typeface-open-sans';
+import 'typeface-crafty-girls';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
