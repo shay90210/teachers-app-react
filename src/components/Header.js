@@ -10,13 +10,16 @@ const Header = () => {
         <Container>
             <Row>
                 <Col>
-                    <img src={LogoBrand} alt='the teachers club logo' width='400px' className='mt-5' />
+                    <img src={LogoBrand} alt='the teachers club logo' width='350px' className='mt-5' />
                 </Col>
             </Row>
             <Row>
                 <Col>
-                    <h1 className='mt-3'>THE TEACHERS' CLUB</h1>
+                    <h1 className='mt-3 main-header'>THE TEACHERS' CLUB</h1>
                 </Col>
+            </Row>
+            <Row>
+                <h2 class='second-header'>Express your teacher thoughts out loud!</h2>
             </Row>
         </Container>
     )

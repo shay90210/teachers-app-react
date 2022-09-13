@@ -6,9 +6,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "open sans";
+}
+
 /* NAVIGATION BAR */
 .nav-bar {
-  background: radial-gradient(859px at 10% 20%, rgb(245, 220, 154) 0%, rgb(164, 78, 51) 90%);
+  background: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
 }
 .nav-bar .nav-link {
   color: #1a2639;
@@ -20,8 +24,17 @@ img {
   display: block;
 }
 
-h1 {
+.main-header {
   text-align: center;
-  font-size: 84px;
-  font-family: "crafty-girls";
+  font-size: 96px;
+  font-family: "indie flower";
+  font-weight: bolder;
+}
+
+.second-header {
+  text-align: center;
+  color: #900048;
+  font-family: "crafty girls";
+  font-weight: bold;
+  font-size: 40px;
 }/*# sourceMappingURL=App.css.map */

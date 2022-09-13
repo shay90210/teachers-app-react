@@ -1,13 +1,13 @@
 /* COLOR SCHEMES */
-$--color-primary: radial-gradient(859px at 10% 20%, rgb(245, 220, 154) 0%, rgb(164, 78, 51) 90%);
+$--color-primary: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
 $--color-secondary: #900048;
 $--color-drk: #1a2639;
 $--color-light: #eeeeee;
 
 /* FONT-SIZES */
-$--size-h1: 84px;
-$--size-h2: 56px;
-$--size-h3: 36px;
+$--size-h1: 96px;
+$--size-h2: 40px;
+$--size-h3: 28px;
 
 /* FONT-WEIGHTS */
 $--bold: 600;
@@ -16,6 +16,10 @@ $--bolder: 900;
 /* GLOBAL STYLES */
 * {
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
 }
 
 /* NAVIGATION BAR */
@@ -32,8 +36,17 @@ img {
     display: block;
 }
 
-h1 {
+.main-header {
     text-align: center;
     font-size: $--size-h1;
-    font-family: 'crafty-girls';
+    font-family: 'indie flower';
+    font-weight: bolder;
+}
+
+.second-header {
+    text-align: center;
+    color: $--color-secondary;
+    font-family: 'crafty girls';
+    font-weight: bold;
+    font-size: $--size-h2;
 }
