@@ -1,7 +1,5 @@
 import { 
   Carousel,
-  CarouselCaption,
-  CarouselItem
 } from 'reactstrap';
 import { useState } from 'react';
 import slideImageOne from '../app/assets/img/purplebg.jpg';
@@ -16,43 +14,43 @@ import slideImageThree from '../app/assets/img/greenbg.jpg';
 
   return (
     <Carousel activeIndex={index} onSelect={handleSelect} className='main-carousel'>
-      <CarouselItem>
+      <Carousel.Item>
         <img
           className="d-block carousel-img"
           src={slideImageOne}
           alt="First slide"
         />
-        <CarouselCaption>
+        <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </CarouselCaption>
-      </CarouselItem>
-      <CarouselItem>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
         <img
           className="d-block carousel-img"
           src={slideImageTwo}
           alt="Second slide"
         />
 
-        <CarouselCaption>
+        <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </CarouselCaption>
-      </CarouselItem>
-      <CarouselItem>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
         <img
           className="d-block carousel-img"
           src={slideImageThree}
           alt="Third slide"
         />
 
-        <CarouselCaption>
+        <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
-        </CarouselCaption>
-      </CarouselItem>
+        </Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
   )
 
